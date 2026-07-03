@@ -17,7 +17,7 @@ const server = http.createServer((req, res) => {
         <title>Dummy App</title>
       </head>
       <body>
-        <h1>Hello from dummy app 2</h1>
+        <h1>Hello from dummy app 3</h1>
       </body>
     </html>
   `);
