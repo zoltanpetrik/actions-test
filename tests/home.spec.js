@@ -4,5 +4,5 @@ test('homepage loads', async ({ page }) => {
   await page.goto('/');
 
   await expect(page).toHaveTitle('Dummy App');
-  await expect(page.getByRole('heading', { name: 'Hello from dummy app' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Hello from dummy app 2' })).toBeVisible();
 });
